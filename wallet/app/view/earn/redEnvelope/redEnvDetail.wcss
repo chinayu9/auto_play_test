@@ -1,0 +1,71 @@
+.new-page{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    flex: 1 0 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.topBack{
+    text-align: center;
+    color: #888888;
+    font-size: 28px;
+    margin-top: -90px;
+    margin-bottom: 60px;
+}
+.topBackimg{
+    height: 147px;
+    width: 100%;
+}
+.userHead{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+.bottom{
+    background: #fff;
+    border-radius: 12px 12px 0 0;
+    flex-basis: 100%;
+    margin: 0px 20px;
+    padding-bottom: 120px;
+    position: relative;
+}
+.tips{
+    font-size: 28px;
+    padding-left: 30px;
+    height: 100px;
+    line-height: 100px;
+    text-align: left;
+    color: #888888;
+    border-bottom: 1px solid #DBDBE5;
+}
+.other{
+    font-size: 28px;
+    background: #F8BC45;
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.endMess{
+    color: #888888;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 40px;
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+}
+.againSend{
+    color: rgba(49, 141, 230, 1);
+    text-decoration:underline;
+    font-size: 28px;
+}
